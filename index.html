@@ -24,23 +24,25 @@
       <form class="wrapper-form">
         <div class="container-checkbox">
           <input
-            type="checkbox"
+            type="radio"
             class="checkboxfahrenheit"
-            id="fahrenheit"
+            name="radiocheck"
+            value="fahrenheit"
           /><label for="fahrenheit" class="main-subtitle -fahrenheit"
             >Fahrenheit</label
           >
-          <input type="checkbox" class="checkboxcelsius" id="celsius" /><label
-            for="celsius"
-            class="main-subtitle -celsius"
-            >Celsius</label
-          >
+          <input
+            type="radio"
+            class="checkboxcelsius"
+            name="radiocheck"
+            value="celsius"
+          /><label for="celsius" class="main-subtitle -celsius">Celsius</label>
         </div>
         <input type="text" class="inputbox" id="converter" />
         <button class="button">Converter!</button>
       </form>
       <div class="container-resposta">
-        <p class="main-subtitle" id="convertido"></p>
+        <p class="main-subtitle resposta"></p>
       </div>
       <script src="main.js"></script>
     </section>
