@@ -26,16 +26,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.9rem;
 }
-.container-checkbox {
-  display: flex;
-  flex-wrap: wrap;
-  width: 140px;
-}
-.checkboxfahrenheit,
-.checkboxcelsius {
-  transform: scale(1.3);
+.selectbox,
+.selectbox {
+  font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
 }
 .inputbox {
   font-family: 'Fredoka', Arial, Helvetica, sans-serif;

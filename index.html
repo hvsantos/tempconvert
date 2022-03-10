@@ -22,22 +22,11 @@
         celsius
       </h2>
       <form class="wrapper-form">
-        <div class="container-checkbox">
-          <input
-            type="radio"
-            class="checkboxfahrenheit"
-            name="radiocheck"
-            value="fahrenheit"
-          /><label for="fahrenheit" class="main-subtitle -fahrenheit"
-            >Fahrenheit</label
-          >
-          <input
-            type="radio"
-            class="checkboxcelsius"
-            name="radiocheck"
-            value="celsius"
-          /><label for="celsius" class="main-subtitle -celsius">Celsius</label>
-        </div>
+        <select class="selectbox" name="selecione uma opção">
+          <option>Selecione uma Opção</option>
+          <option value="fahrenheit">Fahrenheit para Celsius</option>
+          <option value="celsius">Celsius para Fahrenheit</option>
+        </select>
         <input type="text" class="inputbox" id="converter" />
         <button class="button">Converter!</button>
       </form>
